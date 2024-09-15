@@ -11,7 +11,7 @@ public class Main {
 
         // Solicita e lê o gênero com validação
         while (true) {
-            System.out.print("Sexo (M para masculino, F para feminino): ");
+            System.out.print("Sexo: ");
             gender = scanner.next().toUpperCase().charAt(0);
 
             if (gender == 'M' || gender == 'F') {
